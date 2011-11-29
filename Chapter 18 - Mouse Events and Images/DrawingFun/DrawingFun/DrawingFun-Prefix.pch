@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DrawingFun' target in the 'DrawingFun' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

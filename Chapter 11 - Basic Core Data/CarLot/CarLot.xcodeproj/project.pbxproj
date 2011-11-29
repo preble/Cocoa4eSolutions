@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		664D87E11427DCBF001A5F81 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664D87E01427DCBF001A5F81 /* Cocoa.framework */; };
+		664D87EB1427DCBF001A5F81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 664D87E91427DCBF001A5F81 /* InfoPlist.strings */; };
+		664D87ED1427DCBF001A5F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 664D87EC1427DCBF001A5F81 /* main.m */; };
+		664D87F11427DCBF001A5F81 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 664D87EF1427DCBF001A5F81 /* Credits.rtf */; };
+		664D87F41427DCBF001A5F81 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 664D87F31427DCBF001A5F81 /* MyDocument.m */; };
+		664D87F71427DCBF001A5F81 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664D87F51427DCBF001A5F81 /* MyDocument.xib */; };
+		664D87FA1427DCBF001A5F81 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664D87F81427DCBF001A5F81 /* MainMenu.xib */; };
+		664D87FD1427DCBF001A5F81 /* MyDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 664D87FB1427DCBF001A5F81 /* MyDocument.xcdatamodeld */; };
+		664D88051427E883001A5F81 /* CarArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664D88041427E883001A5F81 /* CarArrayController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		664D87DC1427DCBF001A5F81 /* CarLot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarLot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		664D87E01427DCBF001A5F81 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		664D87E31427DCBF001A5F81 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		664D87E41427DCBF001A5F81 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		664D87E51427DCBF001A5F81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		664D87E81427DCBF001A5F81 /* CarLot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarLot-Info.plist"; sourceTree = "<group>"; };
+		664D87EA1427DCBF001A5F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		664D87EC1427DCBF001A5F81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		664D87EE1427DCBF001A5F81 /* CarLot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarLot-Prefix.pch"; sourceTree = "<group>"; };
+		664D87F01427DCBF001A5F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		664D87F21427DCBF001A5F81 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		664D87F31427DCBF001A5F81 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		664D87F61427DCBF001A5F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		664D87F91427DCBF001A5F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		664D87FC1427DCBF001A5F81 /* MyDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDocument.xcdatamodel; sourceTree = "<group>"; };
+		664D88031427E883001A5F81 /* CarArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarArrayController.h; sourceTree = "<group>"; };
+		664D88041427E883001A5F81 /* CarArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarArrayController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664D87D91427DCBF001A5F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664D87E11427DCBF001A5F81 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664D87D11427DCBF001A5F81 = {
+			isa = PBXGroup;
+			children = (
+				664D87E61427DCBF001A5F81 /* CarLot */,
+				664D87DF1427DCBF001A5F81 /* Frameworks */,
+				664D87DD1427DCBF001A5F81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664D87DD1427DCBF001A5F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664D87DC1427DCBF001A5F81 /* CarLot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664D87DF1427DCBF001A5F81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				664D87E01427DCBF001A5F81 /* Cocoa.framework */,
+				664D87E21427DCBF001A5F81 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		664D87E21427DCBF001A5F81 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				664D87E31427DCBF001A5F81 /* AppKit.framework */,
+				664D87E41427DCBF001A5F81 /* CoreData.framework */,
+				664D87E51427DCBF001A5F81 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		664D87E61427DCBF001A5F81 /* CarLot */ = {
+			isa = PBXGroup;
+			children = (
+				664D87F21427DCBF001A5F81 /* MyDocument.h */,
+				664D87F31427DCBF001A5F81 /* MyDocument.m */,
+				664D87F51427DCBF001A5F81 /* MyDocument.xib */,
+				664D87F81427DCBF001A5F81 /* MainMenu.xib */,
+				664D87FB1427DCBF001A5F81 /* MyDocument.xcdatamodeld */,
+				664D87E71427DCBF001A5F81 /* Supporting Files */,
+				664D88031427E883001A5F81 /* CarArrayController.h */,
+				664D88041427E883001A5F81 /* CarArrayController.m */,
+			);
+			path = CarLot;
+			sourceTree = "<group>";
+		};
+		664D87E71427DCBF001A5F81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664D87E81427DCBF001A5F81 /* CarLot-Info.plist */,
+				664D87E91427DCBF001A5F81 /* InfoPlist.strings */,
+				664D87EC1427DCBF001A5F81 /* main.m */,
+				664D87EE1427DCBF001A5F81 /* CarLot-Prefix.pch */,
+				664D87EF1427DCBF001A5F81 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664D87DB1427DCBF001A5F81 /* CarLot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664D88001427DCBF001A5F81 /* Build configuration list for PBXNativeTarget "CarLot" */;
+			buildPhases = (
+				664D87D81427DCBF001A5F81 /* Sources */,
+				664D87D91427DCBF001A5F81 /* Frameworks */,
+				664D87DA1427DCBF001A5F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarLot;
+			productName = CarLot;
+			productReference = 664D87DC1427DCBF001A5F81 /* CarLot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664D87D31427DCBF001A5F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = 664D87D61427DCBF001A5F81 /* Build configuration list for PBXProject "CarLot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 664D87D11427DCBF001A5F81;
+			productRefGroup = 664D87DD1427DCBF001A5F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664D87DB1427DCBF001A5F81 /* CarLot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664D87DA1427DCBF001A5F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664D87EB1427DCBF001A5F81 /* InfoPlist.strings in Resources */,
+				664D87F11427DCBF001A5F81 /* Credits.rtf in Resources */,
+				664D87F71427DCBF001A5F81 /* MyDocument.xib in Resources */,
+				664D87FA1427DCBF001A5F81 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664D87D81427DCBF001A5F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664D87ED1427DCBF001A5F81 /* main.m in Sources */,
+				664D87F41427DCBF001A5F81 /* MyDocument.m in Sources */,
+				664D87FD1427DCBF001A5F81 /* MyDocument.xcdatamodeld in Sources */,
+				664D88051427E883001A5F81 /* CarArrayController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		664D87E91427DCBF001A5F81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664D87EA1427DCBF001A5F81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		664D87EF1427DCBF001A5F81 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664D87F01427DCBF001A5F81 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		664D87F51427DCBF001A5F81 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664D87F61427DCBF001A5F81 /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		664D87F81427DCBF001A5F81 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664D87F91427DCBF001A5F81 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664D87FE1427DCBF001A5F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		664D87FF1427DCBF001A5F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		664D88011427DCBF001A5F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarLot/CarLot-Prefix.pch";
+				INFOPLIST_FILE = "CarLot/CarLot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		664D88021427DCBF001A5F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarLot/CarLot-Prefix.pch";
+				INFOPLIST_FILE = "CarLot/CarLot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664D87D61427DCBF001A5F81 /* Build configuration list for PBXProject "CarLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664D87FE1427DCBF001A5F81 /* Debug */,
+				664D87FF1427DCBF001A5F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664D88001427DCBF001A5F81 /* Build configuration list for PBXNativeTarget "CarLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664D88011427DCBF001A5F81 /* Debug */,
+				664D88021427DCBF001A5F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		664D87FB1427DCBF001A5F81 /* MyDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				664D87FC1427DCBF001A5F81 /* MyDocument.xcdatamodel */,
+			);
+			currentVersion = 664D87FC1427DCBF001A5F81 /* MyDocument.xcdatamodel */;
+			path = MyDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 664D87D31427DCBF001A5F81 /* Project object */;
+}

@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E9B282142A6E1B00B736FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E9B281142A6E1B00B736FE /* Cocoa.framework */; };
+		66E9B28C142A6E1B00B736FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E9B28A142A6E1B00B736FE /* InfoPlist.strings */; };
+		66E9B28E142A6E1B00B736FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B28D142A6E1B00B736FE /* main.m */; };
+		66E9B292142A6E1B00B736FE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66E9B290142A6E1B00B736FE /* Credits.rtf */; };
+		66E9B295142A6E1B00B736FE /* TypingTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B294142A6E1B00B736FE /* TypingTutorAppDelegate.m */; };
+		66E9B298142A6E1B00B736FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E9B296142A6E1B00B736FE /* MainMenu.xib */; };
+		66E9B2A0142A6E2D00B736FE /* BigLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B29F142A6E2D00B736FE /* BigLetterView.m */; };
+		66E9B2B3142A9A2E00B736FE /* TutorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B2B2142A9A2E00B736FE /* TutorController.m */; };
+		66E9B2CF142B7DC100B736FE /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B2CE142B7DC100B736FE /* NSString+FirstLetter.m */; };
+		66E9B2DB142B85E600B736FE /* ColorFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B2DA142B85E600B736FE /* ColorFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66E9B27D142A6E1B00B736FE /* TypingTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E9B281142A6E1B00B736FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66E9B284142A6E1B00B736FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66E9B285142A6E1B00B736FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66E9B286142A6E1B00B736FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66E9B289142A6E1B00B736FE /* TypingTutor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypingTutor-Info.plist"; sourceTree = "<group>"; };
+		66E9B28B142A6E1B00B736FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66E9B28D142A6E1B00B736FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66E9B28F142A6E1B00B736FE /* TypingTutor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypingTutor-Prefix.pch"; sourceTree = "<group>"; };
+		66E9B291142A6E1B00B736FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66E9B293142A6E1B00B736FE /* TypingTutorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypingTutorAppDelegate.h; sourceTree = "<group>"; };
+		66E9B294142A6E1B00B736FE /* TypingTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypingTutorAppDelegate.m; sourceTree = "<group>"; };
+		66E9B297142A6E1B00B736FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66E9B29E142A6E2D00B736FE /* BigLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigLetterView.h; sourceTree = "<group>"; };
+		66E9B29F142A6E2D00B736FE /* BigLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigLetterView.m; sourceTree = "<group>"; };
+		66E9B2B1142A9A2E00B736FE /* TutorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorController.h; sourceTree = "<group>"; };
+		66E9B2B2142A9A2E00B736FE /* TutorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorController.m; sourceTree = "<group>"; };
+		66E9B2CD142B7DC100B736FE /* NSString+FirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstLetter.h"; sourceTree = "<group>"; };
+		66E9B2CE142B7DC100B736FE /* NSString+FirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
+		66E9B2D9142B85E600B736FE /* ColorFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorFormatter.h; sourceTree = "<group>"; };
+		66E9B2DA142B85E600B736FE /* ColorFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E9B27A142A6E1B00B736FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E9B282142A6E1B00B736FE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66E9B272142A6E1B00B736FE = {
+			isa = PBXGroup;
+			children = (
+				66E9B287142A6E1B00B736FE /* TypingTutor */,
+				66E9B280142A6E1B00B736FE /* Frameworks */,
+				66E9B27E142A6E1B00B736FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E9B27E142A6E1B00B736FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B27D142A6E1B00B736FE /* TypingTutor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E9B280142A6E1B00B736FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B281142A6E1B00B736FE /* Cocoa.framework */,
+				66E9B283142A6E1B00B736FE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66E9B283142A6E1B00B736FE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B284142A6E1B00B736FE /* AppKit.framework */,
+				66E9B285142A6E1B00B736FE /* CoreData.framework */,
+				66E9B286142A6E1B00B736FE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66E9B287142A6E1B00B736FE /* TypingTutor */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B2B1142A9A2E00B736FE /* TutorController.h */,
+				66E9B2B2142A9A2E00B736FE /* TutorController.m */,
+				66E9B29E142A6E2D00B736FE /* BigLetterView.h */,
+				66E9B29F142A6E2D00B736FE /* BigLetterView.m */,
+				66E9B293142A6E1B00B736FE /* TypingTutorAppDelegate.h */,
+				66E9B294142A6E1B00B736FE /* TypingTutorAppDelegate.m */,
+				66E9B296142A6E1B00B736FE /* MainMenu.xib */,
+				66E9B2CD142B7DC100B736FE /* NSString+FirstLetter.h */,
+				66E9B2CE142B7DC100B736FE /* NSString+FirstLetter.m */,
+				66E9B288142A6E1B00B736FE /* Supporting Files */,
+				66E9B2D9142B85E600B736FE /* ColorFormatter.h */,
+				66E9B2DA142B85E600B736FE /* ColorFormatter.m */,
+			);
+			path = TypingTutor;
+			sourceTree = "<group>";
+		};
+		66E9B288142A6E1B00B736FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B289142A6E1B00B736FE /* TypingTutor-Info.plist */,
+				66E9B28A142A6E1B00B736FE /* InfoPlist.strings */,
+				66E9B28D142A6E1B00B736FE /* main.m */,
+				66E9B28F142A6E1B00B736FE /* TypingTutor-Prefix.pch */,
+				66E9B290142A6E1B00B736FE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66E9B27C142A6E1B00B736FE /* TypingTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E9B29B142A6E1B00B736FE /* Build configuration list for PBXNativeTarget "TypingTutor" */;
+			buildPhases = (
+				66E9B279142A6E1B00B736FE /* Sources */,
+				66E9B27A142A6E1B00B736FE /* Frameworks */,
+				66E9B27B142A6E1B00B736FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingTutor;
+			productName = TypingTutor;
+			productReference = 66E9B27D142A6E1B00B736FE /* TypingTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E9B274142A6E1B00B736FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = 66E9B277142A6E1B00B736FE /* Build configuration list for PBXProject "TypingTutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66E9B272142A6E1B00B736FE;
+			productRefGroup = 66E9B27E142A6E1B00B736FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E9B27C142A6E1B00B736FE /* TypingTutor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66E9B27B142A6E1B00B736FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E9B28C142A6E1B00B736FE /* InfoPlist.strings in Resources */,
+				66E9B292142A6E1B00B736FE /* Credits.rtf in Resources */,
+				66E9B298142A6E1B00B736FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E9B279142A6E1B00B736FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E9B28E142A6E1B00B736FE /* main.m in Sources */,
+				66E9B295142A6E1B00B736FE /* TypingTutorAppDelegate.m in Sources */,
+				66E9B2A0142A6E2D00B736FE /* BigLetterView.m in Sources */,
+				66E9B2B3142A9A2E00B736FE /* TutorController.m in Sources */,
+				66E9B2CF142B7DC100B736FE /* NSString+FirstLetter.m in Sources */,
+				66E9B2DB142B85E600B736FE /* ColorFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66E9B28A142A6E1B00B736FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E9B28B142A6E1B00B736FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66E9B290142A6E1B00B736FE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E9B291142A6E1B00B736FE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66E9B296142A6E1B00B736FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E9B297142A6E1B00B736FE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66E9B299142A6E1B00B736FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66E9B29A142A6E1B00B736FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66E9B29C142A6E1B00B736FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66E9B29D142A6E1B00B736FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingTutor/TypingTutor-Prefix.pch";
+				INFOPLIST_FILE = "TypingTutor/TypingTutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E9B277142A6E1B00B736FE /* Build configuration list for PBXProject "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E9B299142A6E1B00B736FE /* Debug */,
+				66E9B29A142A6E1B00B736FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E9B29B142A6E1B00B736FE /* Build configuration list for PBXNativeTarget "TypingTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E9B29C142A6E1B00B736FE /* Debug */,
+				66E9B29D142A6E1B00B736FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E9B274142A6E1B00B736FE /* Project object */;
+}

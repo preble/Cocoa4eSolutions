@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66C65EBE141A9B6F003CF285 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C65EBD141A9B6F003CF285 /* Cocoa.framework */; };
+		66C65EC8141A9B6F003CF285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66C65EC6141A9B6F003CF285 /* InfoPlist.strings */; };
+		66C65ECA141A9B6F003CF285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C65EC9141A9B6F003CF285 /* main.m */; };
+		66C65ECE141A9B6F003CF285 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66C65ECC141A9B6F003CF285 /* Credits.rtf */; };
+		66C65ED1141A9B6F003CF285 /* LetterCountAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C65ED0141A9B6F003CF285 /* LetterCountAppDelegate.m */; };
+		66C65ED4141A9B6F003CF285 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C65ED2141A9B6F003CF285 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66C65EB9141A9B6F003CF285 /* LetterCountChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetterCountChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C65EBD141A9B6F003CF285 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66C65EC0141A9B6F003CF285 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66C65EC1141A9B6F003CF285 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66C65EC2141A9B6F003CF285 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66C65EC5141A9B6F003CF285 /* LetterCountChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetterCountChallenge-Info.plist"; sourceTree = "<group>"; };
+		66C65EC7141A9B6F003CF285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66C65EC9141A9B6F003CF285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66C65ECB141A9B6F003CF285 /* LetterCountChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetterCountChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		66C65ECD141A9B6F003CF285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66C65ECF141A9B6F003CF285 /* LetterCountAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterCountAppDelegate.h; sourceTree = "<group>"; };
+		66C65ED0141A9B6F003CF285 /* LetterCountAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterCountAppDelegate.m; sourceTree = "<group>"; };
+		66C65ED3141A9B6F003CF285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C65EB6141A9B6F003CF285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C65EBE141A9B6F003CF285 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66C65EAE141A9B6F003CF285 = {
+			isa = PBXGroup;
+			children = (
+				66C65EC3141A9B6F003CF285 /* LetterCountChallenge */,
+				66C65EBC141A9B6F003CF285 /* Frameworks */,
+				66C65EBA141A9B6F003CF285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66C65EBA141A9B6F003CF285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C65EB9141A9B6F003CF285 /* LetterCountChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C65EBC141A9B6F003CF285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C65EBD141A9B6F003CF285 /* Cocoa.framework */,
+				66C65EBF141A9B6F003CF285 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66C65EBF141A9B6F003CF285 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C65EC0141A9B6F003CF285 /* AppKit.framework */,
+				66C65EC1141A9B6F003CF285 /* CoreData.framework */,
+				66C65EC2141A9B6F003CF285 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66C65EC3141A9B6F003CF285 /* LetterCountChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				66C65ECF141A9B6F003CF285 /* LetterCountAppDelegate.h */,
+				66C65ED0141A9B6F003CF285 /* LetterCountAppDelegate.m */,
+				66C65ED2141A9B6F003CF285 /* MainMenu.xib */,
+				66C65EC4141A9B6F003CF285 /* Supporting Files */,
+			);
+			path = LetterCountChallenge;
+			sourceTree = "<group>";
+		};
+		66C65EC4141A9B6F003CF285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66C65EC5141A9B6F003CF285 /* LetterCountChallenge-Info.plist */,
+				66C65EC6141A9B6F003CF285 /* InfoPlist.strings */,
+				66C65EC9141A9B6F003CF285 /* main.m */,
+				66C65ECB141A9B6F003CF285 /* LetterCountChallenge-Prefix.pch */,
+				66C65ECC141A9B6F003CF285 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C65EB8141A9B6F003CF285 /* LetterCountChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C65ED7141A9B6F003CF285 /* Build configuration list for PBXNativeTarget "LetterCountChallenge" */;
+			buildPhases = (
+				66C65EB5141A9B6F003CF285 /* Sources */,
+				66C65EB6141A9B6F003CF285 /* Frameworks */,
+				66C65EB7141A9B6F003CF285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetterCountChallenge;
+			productName = LetterCountChallenge;
+			productReference = 66C65EB9141A9B6F003CF285 /* LetterCountChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C65EB0141A9B6F003CF285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = 66C65EB3141A9B6F003CF285 /* Build configuration list for PBXProject "LetterCountChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66C65EAE141A9B6F003CF285;
+			productRefGroup = 66C65EBA141A9B6F003CF285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C65EB8141A9B6F003CF285 /* LetterCountChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C65EB7141A9B6F003CF285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C65EC8141A9B6F003CF285 /* InfoPlist.strings in Resources */,
+				66C65ECE141A9B6F003CF285 /* Credits.rtf in Resources */,
+				66C65ED4141A9B6F003CF285 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C65EB5141A9B6F003CF285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C65ECA141A9B6F003CF285 /* main.m in Sources */,
+				66C65ED1141A9B6F003CF285 /* LetterCountAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66C65EC6141A9B6F003CF285 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C65EC7141A9B6F003CF285 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66C65ECC141A9B6F003CF285 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C65ECD141A9B6F003CF285 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66C65ED2141A9B6F003CF285 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C65ED3141A9B6F003CF285 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C65ED5141A9B6F003CF285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66C65ED6141A9B6F003CF285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66C65ED8141A9B6F003CF285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetterCountChallenge/LetterCountChallenge-Prefix.pch";
+				INFOPLIST_FILE = "LetterCountChallenge/LetterCountChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66C65ED9141A9B6F003CF285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetterCountChallenge/LetterCountChallenge-Prefix.pch";
+				INFOPLIST_FILE = "LetterCountChallenge/LetterCountChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C65EB3141A9B6F003CF285 /* Build configuration list for PBXProject "LetterCountChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C65ED5141A9B6F003CF285 /* Debug */,
+				66C65ED6141A9B6F003CF285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C65ED7141A9B6F003CF285 /* Build configuration list for PBXNativeTarget "LetterCountChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C65ED8141A9B6F003CF285 /* Debug */,
+				66C65ED9141A9B6F003CF285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C65EB0141A9B6F003CF285 /* Project object */;
+}

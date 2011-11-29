@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E9B3E7142BF38C00B736FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E9B3E6142BF38B00B736FE /* Cocoa.framework */; };
+		66E9B3F1142BF38C00B736FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E9B3EF142BF38C00B736FE /* InfoPlist.strings */; };
+		66E9B3F3142BF38C00B736FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B3F2142BF38C00B736FE /* main.m */; };
+		66E9B3F7142BF38C00B736FE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66E9B3F5142BF38C00B736FE /* Credits.rtf */; };
+		66E9B3FA142BF38C00B736FE /* GlissAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B3F9142BF38C00B736FE /* GlissAppDelegate.m */; };
+		66E9B3FD142BF38C00B736FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E9B3FB142BF38C00B736FE /* MainMenu.xib */; };
+		66E9B404142BF3A900B736FE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E9B403142BF3A900B736FE /* OpenGL.framework */; };
+		66E9B406142BF3AF00B736FE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E9B405142BF3AF00B736FE /* GLUT.framework */; };
+		66E9B409142BF3FF00B736FE /* GlissView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9B408142BF3FF00B736FE /* GlissView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66E9B3E2142BF38B00B736FE /* Gliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E9B3E6142BF38B00B736FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66E9B3E9142BF38C00B736FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66E9B3EA142BF38C00B736FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66E9B3EB142BF38C00B736FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66E9B3EE142BF38C00B736FE /* Gliss-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gliss-Info.plist"; sourceTree = "<group>"; };
+		66E9B3F0142BF38C00B736FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66E9B3F2142BF38C00B736FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66E9B3F4142BF38C00B736FE /* Gliss-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gliss-Prefix.pch"; sourceTree = "<group>"; };
+		66E9B3F6142BF38C00B736FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66E9B3F8142BF38C00B736FE /* GlissAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlissAppDelegate.h; sourceTree = "<group>"; };
+		66E9B3F9142BF38C00B736FE /* GlissAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlissAppDelegate.m; sourceTree = "<group>"; };
+		66E9B3FC142BF38C00B736FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66E9B403142BF3A900B736FE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		66E9B405142BF3AF00B736FE /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		66E9B407142BF3FF00B736FE /* GlissView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlissView.h; sourceTree = "<group>"; };
+		66E9B408142BF3FF00B736FE /* GlissView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlissView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E9B3DF142BF38B00B736FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E9B406142BF3AF00B736FE /* GLUT.framework in Frameworks */,
+				66E9B404142BF3A900B736FE /* OpenGL.framework in Frameworks */,
+				66E9B3E7142BF38C00B736FE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66E9B3D7142BF38B00B736FE = {
+			isa = PBXGroup;
+			children = (
+				66E9B3EC142BF38C00B736FE /* Gliss */,
+				66E9B3E5142BF38B00B736FE /* Frameworks */,
+				66E9B3E3142BF38B00B736FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E9B3E3142BF38B00B736FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B3E2142BF38B00B736FE /* Gliss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E9B3E5142BF38B00B736FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B405142BF3AF00B736FE /* GLUT.framework */,
+				66E9B403142BF3A900B736FE /* OpenGL.framework */,
+				66E9B3E6142BF38B00B736FE /* Cocoa.framework */,
+				66E9B3E8142BF38C00B736FE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66E9B3E8142BF38C00B736FE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B3E9142BF38C00B736FE /* AppKit.framework */,
+				66E9B3EA142BF38C00B736FE /* CoreData.framework */,
+				66E9B3EB142BF38C00B736FE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66E9B3EC142BF38C00B736FE /* Gliss */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B407142BF3FF00B736FE /* GlissView.h */,
+				66E9B408142BF3FF00B736FE /* GlissView.m */,
+				66E9B3F8142BF38C00B736FE /* GlissAppDelegate.h */,
+				66E9B3F9142BF38C00B736FE /* GlissAppDelegate.m */,
+				66E9B3FB142BF38C00B736FE /* MainMenu.xib */,
+				66E9B3ED142BF38C00B736FE /* Supporting Files */,
+			);
+			path = Gliss;
+			sourceTree = "<group>";
+		};
+		66E9B3ED142BF38C00B736FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E9B3EE142BF38C00B736FE /* Gliss-Info.plist */,
+				66E9B3EF142BF38C00B736FE /* InfoPlist.strings */,
+				66E9B3F2142BF38C00B736FE /* main.m */,
+				66E9B3F4142BF38C00B736FE /* Gliss-Prefix.pch */,
+				66E9B3F5142BF38C00B736FE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66E9B3E1142BF38B00B736FE /* Gliss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E9B400142BF38C00B736FE /* Build configuration list for PBXNativeTarget "Gliss" */;
+			buildPhases = (
+				66E9B3DE142BF38B00B736FE /* Sources */,
+				66E9B3DF142BF38B00B736FE /* Frameworks */,
+				66E9B3E0142BF38B00B736FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gliss;
+			productName = Gliss;
+			productReference = 66E9B3E2142BF38B00B736FE /* Gliss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E9B3D9142BF38B00B736FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = 66E9B3DC142BF38B00B736FE /* Build configuration list for PBXProject "Gliss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66E9B3D7142BF38B00B736FE;
+			productRefGroup = 66E9B3E3142BF38B00B736FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E9B3E1142BF38B00B736FE /* Gliss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66E9B3E0142BF38B00B736FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E9B3F1142BF38C00B736FE /* InfoPlist.strings in Resources */,
+				66E9B3F7142BF38C00B736FE /* Credits.rtf in Resources */,
+				66E9B3FD142BF38C00B736FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E9B3DE142BF38B00B736FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E9B3F3142BF38C00B736FE /* main.m in Sources */,
+				66E9B3FA142BF38C00B736FE /* GlissAppDelegate.m in Sources */,
+				66E9B409142BF3FF00B736FE /* GlissView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66E9B3EF142BF38C00B736FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E9B3F0142BF38C00B736FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66E9B3F5142BF38C00B736FE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E9B3F6142BF38C00B736FE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66E9B3FB142BF38C00B736FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E9B3FC142BF38C00B736FE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66E9B3FE142BF38C00B736FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66E9B3FF142BF38C00B736FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66E9B401142BF38C00B736FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gliss/Gliss-Prefix.pch";
+				INFOPLIST_FILE = "Gliss/Gliss-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66E9B402142BF38C00B736FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gliss/Gliss-Prefix.pch";
+				INFOPLIST_FILE = "Gliss/Gliss-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E9B3DC142BF38B00B736FE /* Build configuration list for PBXProject "Gliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E9B3FE142BF38C00B736FE /* Debug */,
+				66E9B3FF142BF38C00B736FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E9B400142BF38C00B736FE /* Build configuration list for PBXNativeTarget "Gliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E9B401142BF38C00B736FE /* Debug */,
+				66E9B402142BF38C00B736FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E9B3D9142BF38B00B736FE /* Project object */;
+}
