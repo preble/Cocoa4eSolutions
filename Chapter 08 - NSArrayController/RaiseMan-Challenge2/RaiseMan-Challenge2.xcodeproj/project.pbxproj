@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66926E4114859BBF00E9D323 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66926E4014859BBF00E9D323 /* Cocoa.framework */; };
+		66926E4B14859BBF00E9D323 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66926E4914859BBF00E9D323 /* InfoPlist.strings */; };
+		66926E4D14859BBF00E9D323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66926E4C14859BBF00E9D323 /* main.m */; };
+		66926E5114859BBF00E9D323 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66926E4F14859BBF00E9D323 /* Credits.rtf */; };
+		66926E5414859BBF00E9D323 /* RMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 66926E5314859BBF00E9D323 /* RMDocument.m */; };
+		66926E5714859BBF00E9D323 /* RMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66926E5514859BBF00E9D323 /* RMDocument.xib */; };
+		66926E5A14859BC000E9D323 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66926E5814859BC000E9D323 /* MainMenu.xib */; };
+		66926E6714859C3300E9D323 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 66926E6614859C3300E9D323 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66926E3C14859BBF00E9D323 /* RaiseMan-Challenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RaiseMan-Challenge2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66926E4014859BBF00E9D323 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66926E4314859BBF00E9D323 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66926E4414859BBF00E9D323 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66926E4514859BBF00E9D323 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66926E4814859BBF00E9D323 /* RaiseMan-Challenge2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiseMan-Challenge2-Info.plist"; sourceTree = "<group>"; };
+		66926E4A14859BBF00E9D323 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66926E4C14859BBF00E9D323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66926E4E14859BBF00E9D323 /* RaiseMan-Challenge2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaiseMan-Challenge2-Prefix.pch"; sourceTree = "<group>"; };
+		66926E5014859BBF00E9D323 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66926E5214859BBF00E9D323 /* RMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMDocument.h; sourceTree = "<group>"; };
+		66926E5314859BBF00E9D323 /* RMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMDocument.m; sourceTree = "<group>"; };
+		66926E5614859BBF00E9D323 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMDocument.xib; sourceTree = "<group>"; };
+		66926E5914859BC000E9D323 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66926E6514859C3300E9D323 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		66926E6614859C3300E9D323 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66926E3914859BBF00E9D323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66926E4114859BBF00E9D323 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66926E3114859BBF00E9D323 = {
+			isa = PBXGroup;
+			children = (
+				66926E4614859BBF00E9D323 /* RaiseMan-Challenge2 */,
+				66926E3F14859BBF00E9D323 /* Frameworks */,
+				66926E3D14859BBF00E9D323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66926E3D14859BBF00E9D323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66926E3C14859BBF00E9D323 /* RaiseMan-Challenge2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66926E3F14859BBF00E9D323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66926E4014859BBF00E9D323 /* Cocoa.framework */,
+				66926E4214859BBF00E9D323 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66926E4214859BBF00E9D323 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66926E4314859BBF00E9D323 /* AppKit.framework */,
+				66926E4414859BBF00E9D323 /* CoreData.framework */,
+				66926E4514859BBF00E9D323 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66926E4614859BBF00E9D323 /* RaiseMan-Challenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				66926E6514859C3300E9D323 /* Person.h */,
+				66926E6614859C3300E9D323 /* Person.m */,
+				66926E5214859BBF00E9D323 /* RMDocument.h */,
+				66926E5314859BBF00E9D323 /* RMDocument.m */,
+				66926E5514859BBF00E9D323 /* RMDocument.xib */,
+				66926E5814859BC000E9D323 /* MainMenu.xib */,
+				66926E4714859BBF00E9D323 /* Supporting Files */,
+			);
+			path = "RaiseMan-Challenge2";
+			sourceTree = "<group>";
+		};
+		66926E4714859BBF00E9D323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66926E4814859BBF00E9D323 /* RaiseMan-Challenge2-Info.plist */,
+				66926E4914859BBF00E9D323 /* InfoPlist.strings */,
+				66926E4C14859BBF00E9D323 /* main.m */,
+				66926E4E14859BBF00E9D323 /* RaiseMan-Challenge2-Prefix.pch */,
+				66926E4F14859BBF00E9D323 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66926E3B14859BBF00E9D323 /* RaiseMan-Challenge2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66926E5D14859BC000E9D323 /* Build configuration list for PBXNativeTarget "RaiseMan-Challenge2" */;
+			buildPhases = (
+				66926E3814859BBF00E9D323 /* Sources */,
+				66926E3914859BBF00E9D323 /* Frameworks */,
+				66926E3A14859BBF00E9D323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RaiseMan-Challenge2";
+			productName = "RaiseMan-Challenge2";
+			productReference = 66926E3C14859BBF00E9D323 /* RaiseMan-Challenge2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66926E3314859BBF00E9D323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = 66926E3614859BBF00E9D323 /* Build configuration list for PBXProject "RaiseMan-Challenge2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66926E3114859BBF00E9D323;
+			productRefGroup = 66926E3D14859BBF00E9D323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66926E3B14859BBF00E9D323 /* RaiseMan-Challenge2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66926E3A14859BBF00E9D323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66926E4B14859BBF00E9D323 /* InfoPlist.strings in Resources */,
+				66926E5114859BBF00E9D323 /* Credits.rtf in Resources */,
+				66926E5714859BBF00E9D323 /* RMDocument.xib in Resources */,
+				66926E5A14859BC000E9D323 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66926E3814859BBF00E9D323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66926E4D14859BBF00E9D323 /* main.m in Sources */,
+				66926E5414859BBF00E9D323 /* RMDocument.m in Sources */,
+				66926E6714859C3300E9D323 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66926E4914859BBF00E9D323 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66926E4A14859BBF00E9D323 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66926E4F14859BBF00E9D323 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66926E5014859BBF00E9D323 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66926E5514859BBF00E9D323 /* RMDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66926E5614859BBF00E9D323 /* en */,
+			);
+			name = RMDocument.xib;
+			sourceTree = "<group>";
+		};
+		66926E5814859BC000E9D323 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66926E5914859BC000E9D323 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66926E5B14859BC000E9D323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66926E5C14859BC000E9D323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66926E5E14859BC000E9D323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiseMan-Challenge2/RaiseMan-Challenge2-Prefix.pch";
+				INFOPLIST_FILE = "RaiseMan-Challenge2/RaiseMan-Challenge2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66926E5F14859BC000E9D323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaiseMan-Challenge2/RaiseMan-Challenge2-Prefix.pch";
+				INFOPLIST_FILE = "RaiseMan-Challenge2/RaiseMan-Challenge2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66926E3614859BBF00E9D323 /* Build configuration list for PBXProject "RaiseMan-Challenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66926E5B14859BC000E9D323 /* Debug */,
+				66926E5C14859BC000E9D323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66926E5D14859BC000E9D323 /* Build configuration list for PBXNativeTarget "RaiseMan-Challenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66926E5E14859BC000E9D323 /* Debug */,
+				66926E5F14859BC000E9D323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66926E3314859BBF00E9D323 /* Project object */;
+}

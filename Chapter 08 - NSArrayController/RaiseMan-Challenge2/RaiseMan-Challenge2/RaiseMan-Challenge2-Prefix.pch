@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RaiseMan-Challenge2' target in the 'RaiseMan-Challenge2' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
