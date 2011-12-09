@@ -176,7 +176,8 @@ static void *RMDocumentKVOContext;
     BOOL editingEnded = [w makeFirstResponder:w];
     if (!editingEnded) {
         NSLog(@"Unable to end editing");
-		return; }
+		return;
+	}
     NSUndoManager *undo = [self undoManager];
     // Has an edit occurred already in this event?
     if ([undo groupingLevel] > 0) {

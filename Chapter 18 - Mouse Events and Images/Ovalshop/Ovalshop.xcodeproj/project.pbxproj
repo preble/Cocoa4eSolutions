@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66D6DCB714915C06009C1682 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D6DCB614915C06009C1682 /* Cocoa.framework */; };
+		66D6DCC114915C06009C1682 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66D6DCBF14915C06009C1682 /* InfoPlist.strings */; };
+		66D6DCC314915C06009C1682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6DCC214915C06009C1682 /* main.m */; };
+		66D6DCC714915C07009C1682 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66D6DCC514915C07009C1682 /* Credits.rtf */; };
+		66D6DCCA14915C07009C1682 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6DCC914915C07009C1682 /* Document.m */; };
+		66D6DCCD14915C07009C1682 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D6DCCB14915C07009C1682 /* Document.xib */; };
+		66D6DCD014915C07009C1682 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D6DCCE14915C07009C1682 /* MainMenu.xib */; };
+		66D6DCD814915C2E009C1682 /* OvalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6DCD714915C2E009C1682 /* OvalView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66D6DCB214915C06009C1682 /* Ovalshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ovalshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D6DCB614915C06009C1682 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66D6DCB914915C06009C1682 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66D6DCBA14915C06009C1682 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66D6DCBB14915C06009C1682 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66D6DCBE14915C06009C1682 /* Ovalshop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ovalshop-Info.plist"; sourceTree = "<group>"; };
+		66D6DCC014915C06009C1682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66D6DCC214915C06009C1682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66D6DCC414915C07009C1682 /* Ovalshop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ovalshop-Prefix.pch"; sourceTree = "<group>"; };
+		66D6DCC614915C07009C1682 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66D6DCC814915C07009C1682 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		66D6DCC914915C07009C1682 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		66D6DCCC14915C07009C1682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		66D6DCCF14915C07009C1682 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66D6DCD614915C2E009C1682 /* OvalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalView.h; sourceTree = "<group>"; };
+		66D6DCD714915C2E009C1682 /* OvalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D6DCAF14915C06009C1682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D6DCB714915C06009C1682 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D6DCA714915C06009C1682 = {
+			isa = PBXGroup;
+			children = (
+				66D6DCBC14915C06009C1682 /* Ovalshop */,
+				66D6DCB514915C06009C1682 /* Frameworks */,
+				66D6DCB314915C06009C1682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66D6DCB314915C06009C1682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D6DCB214915C06009C1682 /* Ovalshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D6DCB514915C06009C1682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D6DCB614915C06009C1682 /* Cocoa.framework */,
+				66D6DCB814915C06009C1682 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66D6DCB814915C06009C1682 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D6DCB914915C06009C1682 /* AppKit.framework */,
+				66D6DCBA14915C06009C1682 /* CoreData.framework */,
+				66D6DCBB14915C06009C1682 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66D6DCBC14915C06009C1682 /* Ovalshop */ = {
+			isa = PBXGroup;
+			children = (
+				66D6DCD614915C2E009C1682 /* OvalView.h */,
+				66D6DCD714915C2E009C1682 /* OvalView.m */,
+				66D6DCC814915C07009C1682 /* Document.h */,
+				66D6DCC914915C07009C1682 /* Document.m */,
+				66D6DCCB14915C07009C1682 /* Document.xib */,
+				66D6DCCE14915C07009C1682 /* MainMenu.xib */,
+				66D6DCBD14915C06009C1682 /* Supporting Files */,
+			);
+			path = Ovalshop;
+			sourceTree = "<group>";
+		};
+		66D6DCBD14915C06009C1682 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66D6DCBE14915C06009C1682 /* Ovalshop-Info.plist */,
+				66D6DCBF14915C06009C1682 /* InfoPlist.strings */,
+				66D6DCC214915C06009C1682 /* main.m */,
+				66D6DCC414915C07009C1682 /* Ovalshop-Prefix.pch */,
+				66D6DCC514915C07009C1682 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D6DCB114915C06009C1682 /* Ovalshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D6DCD314915C07009C1682 /* Build configuration list for PBXNativeTarget "Ovalshop" */;
+			buildPhases = (
+				66D6DCAE14915C06009C1682 /* Sources */,
+				66D6DCAF14915C06009C1682 /* Frameworks */,
+				66D6DCB014915C06009C1682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ovalshop;
+			productName = Ovalshop;
+			productReference = 66D6DCB214915C06009C1682 /* Ovalshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D6DCA914915C06009C1682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = 66D6DCAC14915C06009C1682 /* Build configuration list for PBXProject "Ovalshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66D6DCA714915C06009C1682;
+			productRefGroup = 66D6DCB314915C06009C1682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D6DCB114915C06009C1682 /* Ovalshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D6DCB014915C06009C1682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D6DCC114915C06009C1682 /* InfoPlist.strings in Resources */,
+				66D6DCC714915C07009C1682 /* Credits.rtf in Resources */,
+				66D6DCCD14915C07009C1682 /* Document.xib in Resources */,
+				66D6DCD014915C07009C1682 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D6DCAE14915C06009C1682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D6DCC314915C06009C1682 /* main.m in Sources */,
+				66D6DCCA14915C07009C1682 /* Document.m in Sources */,
+				66D6DCD814915C2E009C1682 /* OvalView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66D6DCBF14915C06009C1682 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D6DCC014915C06009C1682 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66D6DCC514915C07009C1682 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D6DCC614915C07009C1682 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66D6DCCB14915C07009C1682 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D6DCCC14915C07009C1682 /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		66D6DCCE14915C07009C1682 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D6DCCF14915C07009C1682 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66D6DCD114915C07009C1682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66D6DCD214915C07009C1682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66D6DCD414915C07009C1682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovalshop/Ovalshop-Prefix.pch";
+				INFOPLIST_FILE = "Ovalshop/Ovalshop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66D6DCD514915C07009C1682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovalshop/Ovalshop-Prefix.pch";
+				INFOPLIST_FILE = "Ovalshop/Ovalshop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D6DCAC14915C06009C1682 /* Build configuration list for PBXProject "Ovalshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D6DCD114915C07009C1682 /* Debug */,
+				66D6DCD214915C07009C1682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D6DCD314915C07009C1682 /* Build configuration list for PBXNativeTarget "Ovalshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D6DCD414915C07009C1682 /* Debug */,
+				66D6DCD514915C07009C1682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66D6DCA914915C06009C1682 /* Project object */;
+}

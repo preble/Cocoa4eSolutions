@@ -10,7 +10,8 @@
 
 @interface ScatteredAppDelegate ()
 - (void)addImagesFromFolderURL:(NSURL *)url;
-- (NSImage *)thumbImageFromImage:(NSImage *)image; - (void)presentImage:(NSImage *)image;
+- (NSImage *)thumbImageFromImage:(NSImage *)image;
+- (void)presentImage:(NSImage *)image;
 - (void)setText:(NSString *)text;
 @end
 

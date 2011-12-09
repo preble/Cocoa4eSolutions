@@ -307,8 +307,10 @@
 	NSPasteboard *pb = [sender draggingPasteboard];
 	if(![self readFromPasteboard:pb]) {
 		NSLog(@"Error: Could not read from dragging pasteboard");
-		return NO; }
-	return YES; }
+		return NO;
+	}
+	return YES;
+}
 - (void)concludeDragOperation:(id <NSDraggingInfo>)sender
 {
 	NSLog(@"concludeDragOperation:");
